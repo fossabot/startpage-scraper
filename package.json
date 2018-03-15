@@ -1,0 +1,31 @@
+{
+  "name": "startpage-scraper",
+  "version": "1.0.0",
+  "description": "Get the top 10 search results from StartPage.com in your terminal.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cli-spinner": "^0.2.8",
+    "inquirer": "^5.1.0",
+    "scrape-it": "^5.0.2"
+  },
+  "keywords": [
+    "startpage",
+    "scraper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitrohorse/startpage-scraper"
+  },
+  "bugs": {
+    "url": "https://github.com/nitrohorse/startpage-scraper/issues"
+  },
+  "author": "nitrohorse",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": "^8.x.x"
+  }
+}
